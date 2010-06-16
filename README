@@ -1,0 +1,4 @@
+To get this site to work:
+1. Create a database and name it 'coming'.
+2. Go to config.inc and change appropriate variables
+3. Upload to server
