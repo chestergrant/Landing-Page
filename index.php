@@ -5,62 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <link rel="shortcut icon" href="favicon.ico" />
     <? include_once 'ajax.php';?>
-    <style type="text/css">
-body {
-  background: #404040;
-  margin:0;
-  padding:0;
-  color: white; 
-  height: 100%;
-  width: 100%;
-  font-family: Arial, Verdana, sans-serif;
-}
+     <link rel="stylesheet" type="text/css" href="coming.css" />
 
-div#content {
-  border-bottom: 40px solid #1e1e1e;
-  background: #1a1a1a;
-  width: 600px;
-  margin: 80px auto 200px auto;
-  padding: 20px 20px 50px 50px;
-}
-
-h1#title {
-  margin: 30px 0 0 0;
-  font-size: 60px;
-  font-weight: normal;
-}
-h1#title span {
-  font-weight: normal;
-  color: #7bc00a
-}
-p#comingsoon {
-  font-size: 16px;
-  color: #999;
-  letter-spacing: -1px;
-}
-
-p#notify {
-  margin-top: 60px;
-  color: #999;
-}
-
-form {
-  color: #999;
-}
-
-p#inform {
-  margin-top: 60px;
-  color: #999;
-  padding-bottom: 80px;
-}
-
-label, input {
-  display: block;
-  margin-top: 10px;
-}
-
-
-</style>
+   
     <title><? echo $title;?></title>
   </head>
   <body>
